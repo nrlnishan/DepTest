@@ -12,4 +12,9 @@ public struct DepTest {
     public func runTest() {
         print("Running Dep Test Package...")
     }
+    
+    public func realmTest() {
+        let db = try! Realm()
+        print("Realm DB initialized")
+    }
 }
