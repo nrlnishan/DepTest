@@ -32,5 +32,6 @@ let package = Package(
             ],
             path: "Sources"
         ),
-    ]
+    ],
+    swiftLanguageModes: [.v5]
 )
